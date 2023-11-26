@@ -1,0 +1,37 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--navy-blue);
+  background: white;
+}
+
+.contact {
+  color: var(--slate);
+}
+.contact:hover {
+  color: var(--ocean);
+}
+
+a {
+  color: var(--navy-blue);
+  text-decoration: none;
+}
+a:hover a:focus {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+button {
+  color: white;
+  background-color: var(--iris);
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--ocean);
+}
