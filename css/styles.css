@@ -1,4 +1,5 @@
 :root {
+  --white: #ffffff;
 }
 
 body {
@@ -88,9 +89,7 @@ body {
   color: #2e2f42;
 }
 
-.nav-links:hover {
-  color: #404bbf;
-}
+.nav-links:hover,
 .nav-links:active {
   color: #404bbf;
 }
@@ -102,10 +101,7 @@ body {
   color: #434455;
 }
 
-.address-links:hover {
-  color: #404bbf;
-}
-
+.address-links:hover,
 .address-links:active {
   color: #404bbf;
 }
@@ -133,9 +129,7 @@ body {
   cursor: pointer;
 }
 
-.index-button:hover {
-  background-color: #404bbf;
-}
+.index-button:hover,
 .index-button:active {
   background-color: #404bbf;
 }
