@@ -62,7 +62,9 @@ body {
   cursor: pointer;
 }
 
-.buttons-header:hover .buttons-header:active {
+.buttons-header:hover,
+.buttons-header:focus,
+.buttons-header:active {
   background-color: #404bbf;
 }
 
@@ -90,6 +92,7 @@ body {
 }
 
 .nav-links:hover,
+.nav-links:focus,
 .nav-links:active {
   color: #404bbf;
 }
@@ -102,6 +105,7 @@ body {
 }
 
 .address-links:hover,
+.address-links:focus,
 .address-links:active {
   color: #404bbf;
 }
@@ -130,6 +134,7 @@ body {
 }
 
 .index-button:hover,
+.index-button:focus,
 .index-button:active {
   background-color: #404bbf;
 }
@@ -155,4 +160,29 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.index-bottom {
+  background-color: #f4f4fd;
+}
+
+.index-fourth-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.index-footer {
+  background-color: #2e2f42;
+}
+
+.logo-second-color {
+  color: #f4f4fd;
+}
+.footer-paragraph {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
