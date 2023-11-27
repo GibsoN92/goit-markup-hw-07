@@ -39,18 +39,6 @@ body {
   font-style: normal;
 }
 
-.buttons {
-  background-color: #2e2f42;
-}
-
-.header-portfolio {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-
 .buttons-header {
   color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
@@ -64,7 +52,8 @@ body {
 
 .buttons-header:hover,
 .buttons-header:focus {
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .header-images {
