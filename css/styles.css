@@ -164,3 +164,7 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
+.image-background {
+  background-color: #ffffff;
+}
