@@ -52,19 +52,19 @@ body {
 }
 
 .buttons-header {
-  background-color: #4d5ae5;
+  color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
   cursor: pointer;
+  background-color: #f4f4fd;
 }
 
 .buttons-header:hover,
 .buttons-header:focus {
-  background-color: #404bbf;
+  background-color: #ffffff;
 }
 
 .header-images {
