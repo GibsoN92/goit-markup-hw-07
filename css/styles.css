@@ -63,8 +63,7 @@ body {
 }
 
 .buttons-header:hover,
-.buttons-header:focus,
-.buttons-header:active {
+.buttons-header:focus {
   background-color: #404bbf;
 }
 
@@ -92,8 +91,7 @@ body {
 }
 
 .nav-links:hover,
-.nav-links:focus,
-.nav-links:active {
+.nav-links:focus {
   color: #404bbf;
 }
 
@@ -105,8 +103,7 @@ body {
 }
 
 .address-links:hover,
-.address-links:focus,
-.address-links:active {
+.address-links:focus {
   color: #404bbf;
 }
 
@@ -134,8 +131,7 @@ body {
 }
 
 .index-button:hover,
-.index-button:focus,
-.index-button:active {
+.index-button:focus {
   background-color: #404bbf;
 }
 
@@ -151,6 +147,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .index-third-header {
@@ -166,14 +163,6 @@ body {
   background-color: #f4f4fd;
 }
 
-.index-fourth-header {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
 .index-footer {
   background-color: #2e2f42;
 }
