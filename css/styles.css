@@ -9,24 +9,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--slate);
-  background: var(--white);
-}
-
-.contact {
-  color: var(--slate);
-}
-.contact:hover {
-  color: var(--ocean);
-}
-
-a {
-  color: var(--navy-blue);
-  text-decoration: none;
-}
-a:hover a:focus {
-  color: var(--ocean);
-  text-decoration: underline;
+  color: #434455;
+  background: #ffffff;
 }
 
 .logo {
@@ -87,7 +71,7 @@ a:hover a:focus {
   cursor: pointer;
 }
 
-.button-header:hover .buttons-header:active {
+.buttons-header:hover .buttons-header:active {
   background-color: #404bbf;
 }
 
@@ -104,4 +88,27 @@ a:hover a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.nav-links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-links:hover {
+  color: #404bbf;
+}
+
+.address-links {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.address-links:hover .address-links:active {
+  color: #404bbf;
 }
