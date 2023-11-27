@@ -1,3 +1,6 @@
+:root {
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -29,10 +32,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.list:hover .list:active {
-  color: #404bbf;
 }
 
 .address-list {
@@ -92,6 +91,9 @@ body {
 .nav-links:hover {
   color: #404bbf;
 }
+.nav-links:active {
+  color: #404bbf;
+}
 
 .address-links {
   font-size: 16px;
@@ -106,4 +108,57 @@ body {
 
 .address-links:active {
   color: #404bbf;
+}
+
+.index-description {
+  background-color: #2e2f42;
+}
+
+.index-main-header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.index-button {
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.index-button:hover {
+  background-color: #404bbf;
+}
+.index-button:active {
+  background-color: #404bbf;
+}
+
+.index-secondary-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.index-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.index-third-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
