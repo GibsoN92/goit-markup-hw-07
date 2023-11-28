@@ -1,12 +1,62 @@
 :root {
   --white: #ffffff;
+  --slate: #434455;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+  --navyblue: #2e2f42;
+  --ocean: #404bbf;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background: #ffffff;
+  color: var(--slate);
+  background: var(--white);
 }
+
+/* index classes */
+
+.description-main {
+  background-color: var(--navyblue);
+}
+
+.button-main {
+  background-color: var(--iris);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.button-main:hover,
+.button-main:focus {
+  background-color: var(--ocean);
+}
+
+.header-main-top {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.image-background {
+  background-color: var(--white);
+}
+
+.bottom-main-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue);
+}
+
+/* all pages classes */
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -15,15 +65,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.link {
-  text-decoration: none;
+  color: var(--iris);
 }
 
 .logo-color {
-  color: #2e2f42;
+  color: var(--navyblue);
+}
+.link {
+  text-decoration: none;
 }
 
 .list {
@@ -32,43 +81,32 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navyblue);
 }
 
 .address-list {
   font-style: normal;
 }
 
-.buttons-header {
-  color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  background-color: #f4f4fd;
-}
-
-.buttons-header:hover,
-.buttons-header:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-
-.header-images {
+.header-main {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navyblue);
 }
 
-.header-paragraph {
+.address-links {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
+}
+
+.address-links:hover,
+.address-links:focus {
+  color: var(--ocean);
 }
 
 .nav-links {
@@ -76,95 +114,57 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navyblue);
 }
 
 .nav-links:hover,
 .nav-links:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
-.address-links {
+.paragraph-main {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 
-.address-links:hover,
-.address-links:focus {
-  color: #404bbf;
+.footer-main {
+  background-color: var(--navyblue);
 }
 
-.index-description {
-  background-color: #2e2f42;
+.bottom-main {
+  background-color: var(--cloud);
 }
 
-.index-main-header {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
+.logo-second-color {
+  color: var(--cloud);
+}
+
+.footer-paragraph {
+  line-height: 1.5;
+  color: var(--cloud);
   letter-spacing: 0.02em;
-  color: #ffffff;
 }
 
-.index-button {
-  background-color: #4d5ae5;
+/* portfolio classes */
+
+.buttons-header {
+  color: var(--iris);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
   cursor: pointer;
+  background-color: var(--cloud);
 }
 
-.index-button:hover,
-.index-button:focus {
-  background-color: #404bbf;
+.buttons-header:hover,
+.buttons-header:focus {
+  color: var(--white);
+  background-color: var(--ocean);
 }
 
-.index-secondary-header {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.index-paragraph {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.index-third-header {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.index-bottom {
-  background-color: #f4f4fd;
-}
-
-.index-footer {
-  background-color: #2e2f42;
-}
-
-.logo-second-color {
-  color: #f4f4fd;
-}
-.footer-paragraph {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-}
-
-.image-background {
-  background-color: #ffffff;
-}
+/* other */
