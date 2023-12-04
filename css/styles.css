@@ -104,6 +104,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 
 .logo-color {
@@ -192,7 +193,7 @@ body {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   paddin: 0 15px;
   margin: 0 auto;
 }
