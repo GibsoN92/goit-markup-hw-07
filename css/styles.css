@@ -170,6 +170,15 @@ body {
   letter-spacing: 0.02em;
 }
 
+.container {
+  max-width: 1158px;
+  paddin: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* portfolio classes */
 
 .buttons-header {
