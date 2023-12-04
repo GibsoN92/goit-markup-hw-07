@@ -10,6 +10,7 @@
   --cloud: #f4f4fd;
   --navyblue: #2e2f42;
   --ocean: #404bbf;
+  --cornflower: #e7e9fc;
 }
 
 img {
@@ -39,6 +40,7 @@ body {
 
 .description-main {
   background-color: var(--navyblue);
+  padding: 188px 0;
 }
 
 .button-main {
@@ -50,6 +52,11 @@ body {
   letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button-main:hover,
@@ -63,6 +70,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
+  max-width: 496px;
 }
 
 .image-background {
@@ -76,6 +84,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navyblue);
+}
+
+.second-description-main {
+  padding: 120px 0;
+}
+
+.list-main {
+  gap: 24px;
 }
 
 /* all pages classes */
@@ -104,6 +120,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  display: flex;
+  gap: 40px;
 }
 
 .address-list {
@@ -124,6 +142,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  display: flex;
+  gap: 40px;
 }
 
 .address-links:hover,
@@ -137,6 +157,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  padding: 24px 0;
 }
 
 .nav-links:hover,
@@ -174,9 +195,29 @@ body {
   max-width: 1158px;
   paddin: 0 15px;
   margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid var(--cornflower);
   display: flex;
-  justify-content: center;
+}
+
+.header-navigation {
+  display: flex;
   align-items: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* portfolio classes */
