@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --white: #ffffff;
   --slate: #434455;
@@ -5,6 +10,23 @@
   --cloud: #f4f4fd;
   --navyblue: #2e2f42;
   --ocean: #404bbf;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 body {
