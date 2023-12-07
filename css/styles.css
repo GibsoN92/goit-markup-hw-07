@@ -227,6 +227,7 @@ body {
 
 .footer-main {
   background-color: var(--navyblue);
+  padding: 100px 0;
 }
 
 .bottom-main {
