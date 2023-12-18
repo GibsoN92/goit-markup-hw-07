@@ -155,8 +155,21 @@ body {
   background-color: var(--ocean);
 }
 
-.svg-one {
+.svgs {
   fill: var(--cloud);
+}
+
+.logos-people-icons {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.logos-people-link {
+  width: 40px;
+  height: 40px;
 }
 
 /* all pages classes */
@@ -298,6 +311,11 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.header-border {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* portfolio classes */
