@@ -231,7 +231,7 @@ body {
 }
 
 .customers-icons {
-  fill: var(--lightslate);
+  fill: currentColor;
 }
 
 .customers-link:hover,
