@@ -228,6 +228,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  color: var(--lightslate);
 }
 
 .customers-icons {
