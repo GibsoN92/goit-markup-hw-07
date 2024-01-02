@@ -806,7 +806,7 @@ body {
   color: var(--iris);
 }
 
-.modal-form {
+.modal-form.container {
   margin-bottom: 8px;
 }
 
