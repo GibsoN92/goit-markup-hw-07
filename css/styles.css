@@ -809,10 +809,9 @@ body {
 
 .modal-form-check {
   display: block;
-  margin-top: 20px;
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.8;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: var(--lightslate);
 }
 
@@ -820,9 +819,33 @@ body {
   color: var(--iris);
 }
 
-.label-container {
-  position: relative;
+.modal-form-container {
   margin-bottom: 8px;
+}
+
+.label-comment {
+  margin-bottom: 16px;
+}
+
+.checkbox-container {
+  margin-bottom: 24px;
+}
+
+.modal-checkbox-icon {
+}
+
+.modal-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition-property: background-color, border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 /* other */
