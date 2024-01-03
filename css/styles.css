@@ -789,22 +789,10 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-textarea:focus {
+.modal-form-textarea:focus,
+.modal-form-textarea:active,
+.modal-form-textarea:hover {
   border-color: var(--iris);
-}
-
-.modal-form-btn {
-  padding: 10px 76px;
-  margin: 30px 120px;
-  background-color: var(--iris);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: var(--white);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 2;
-  border: none;
-  cursor: pointer;
 }
 
 .modal-form-check {
@@ -846,6 +834,28 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.label-container {
+  position: relative;
+}
+
+.modal-form-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  background-color: var(--iris);
+  border-radius: 4px;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* other */
