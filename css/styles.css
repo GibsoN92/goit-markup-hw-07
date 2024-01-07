@@ -533,6 +533,12 @@ body {
   margin-left: 16px;
 }
 
+.footer-subscribe {
+  display: flex;
+  text-align: center;
+  justify-content: right;
+}
+
 /* portfolio classes */
 
 .buttons-header {
@@ -745,7 +751,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-icon:focus {
+.modal-form-icon:focus-within {
   fill: var(--iris);
 }
 
@@ -853,6 +859,20 @@ body {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-input:checked + .modal-form-check .modal-checkbox {
+  background-color: var(--iris);
+  border: none;
+  fill: var(--cloud);
+}
+
+.contact-form {
+  gap: 24px;
+}
+
+.modal-form-container:focus-within {
+  fill: var(--iris);
 }
 
 /* other */
