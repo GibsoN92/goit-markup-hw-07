@@ -254,6 +254,11 @@ body {
   color: var(--ocean);
 }
 
+.footer-label {
+  display: flex;
+  flex-direction: column;
+}
+
 /* all pages classes */
 
 .logo {
@@ -484,17 +489,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white);
+  display: flex;
+  margin-left: 78px;
 }
 
 .subscribe-form {
   display: flex;
-}
-
-.footer-label {
   gap: 24px;
+  margin-left: 78px;
 }
 
 .subscribe-input {
+  display: flex;
   width: 264px;
   height: 40px;
   border: 1px solid var(--white);
@@ -507,6 +513,7 @@ body {
   border-radius: 4px;
   color: var(--white);
   gap: 24px;
+  flex-shrink: 0;
 }
 
 ::placeholder {
@@ -537,6 +544,7 @@ body {
   display: flex;
   text-align: center;
   justify-content: right;
+  flex-direction: column;
 }
 
 /* portfolio classes */
@@ -862,7 +870,7 @@ body {
 }
 
 .checkbox-input:checked + .modal-form-check .modal-checkbox {
-  background-color: var(--iris);
+  background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
 }
