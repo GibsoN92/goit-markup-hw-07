@@ -53,7 +53,7 @@
       <section class="description-main">
         <div class="container">
           <h1 class="header-main-top">Effective Solutions for Your Business</h1>
-          <button class="button-main" type="button" data-modal-open>
+          <button class="button-main btn-studio" type="button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -426,8 +426,9 @@
                 name="e-mail"
                 class="subscribe-input"
                 placeholder="E-mail"
+                required
             /></label>
-            <button type="submit" class="subscribe-btn">
+            <button type="submit" class="subscribe-btn btn-studio">
               Subscribe
               <svg class="footer-icon-subscribe" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
@@ -454,6 +455,7 @@
                 name="user-name"
                 id="user-name"
                 class="modal-form-input"
+                required
               />
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-modal-username"></use>
@@ -464,10 +466,11 @@
             <label class="modal-form-label" for="phone">Phone</label>
             <div class="label-container">
               <input
-                type="text"
+                type="tel"
                 name="phone"
                 id="phone"
                 class="modal-form-input"
+                required
               />
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-modal-phone"></use>
@@ -475,13 +478,14 @@
             </div>
           </div>
           <div class="modal-form-container">
-            <label class="modal-form-label" for="user-name">Email</label>
+            <label class="modal-form-label" for="email">Email</label>
             <div class="label-container">
               <input
-                type="text"
+                type="email"
                 name="email"
                 id="email"
                 class="modal-form-input"
+                required
               />
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-modal-email"></use>
@@ -504,6 +508,7 @@
               value="true"
               id="user-privacy"
               class="checkbox-input visually-hidden"
+              required
             />
             <label class="modal-form-check" for="user-privacy"
               ><span class="modal-checkbox"
@@ -515,7 +520,7 @@
               <a href="#" class="modal-link">Privacy Policy</a></label
             >
           </div>
-          <button type="submit" class="modal-form-btn">Send</button>
+          <button type="submit" class="modal-form-btn btn-studio">Send</button>
         </form>
       </div>
     </div>
