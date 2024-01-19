@@ -43,7 +43,7 @@ body {
 
 .description-main {
   background-color: var(--navyblue);
-  padding: 188px 0;
+  padding: 112px 0;
   max-width: 1440px;
   width: 100%;
   background-repeat: no-repeat;
@@ -68,14 +68,14 @@ body {
 }
 
 .header-main-top {
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 40px;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.72px;
   color: var(--white);
-  max-width: 496px;
+  max-width: 320px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  padding-bottom: 72px;
 }
 
 .image-background {
@@ -92,7 +92,7 @@ body {
 }
 
 .second-description-main {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .list-main {
@@ -115,7 +115,7 @@ body {
 }
 
 .bottom-images {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .list-bottom-images {
@@ -139,7 +139,7 @@ body {
 }
 
 .footer-text {
-  max-width: 264px;
+  width: 264px;
   margin: 0 auto;
 }
 
@@ -189,8 +189,7 @@ body {
 }
 
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 96px 0;
 }
 
 .customers-header {
@@ -205,15 +204,15 @@ body {
 
 .customers-list {
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 72px;
+  column-gap: 16px;
+  justify-content: center;
 }
 
 .customers-inside {
-  flex-basis: calc((100% - 120px) / 2);
-  width: calc((100% - 120px) / 6);
   height: 88px;
+  width: 190px;
 }
 
 .customers-link {
@@ -293,10 +292,6 @@ body {
   display: flex;
 }
 
-.list-nav {
-  gap: 40px;
-}
-
 .list-main-inside {
   flex-basis: 100%;
 }
@@ -306,10 +301,10 @@ body {
 }
 
 .header-main {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.72px;
   color: var(--navyblue);
   margin-bottom: 8px;
   text-align: center;
@@ -363,7 +358,7 @@ body {
 }
 
 .paragraph-main {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -391,7 +386,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1158px;
+  max-width: 480px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -928,8 +923,11 @@ body {
 
 .mobile-header {
   display: flex;
-  width: 100%;
+  width: 480px;
+  margin: auto;
   justify-content: space-between;
+  padding: 16px 24px 24px 16px;
+  text-align: center;
 }
 
 .mobile-header button {
@@ -1015,13 +1013,12 @@ body {
   }
 
   .customers-list {
-    justify-content: space-evenly;
+    row-gap: 72px;
+    column-gap: 24px;
   }
 
   .customers-inside {
-    flex-basis: calc((100% - 120px) / 3);
-    width: calc((100% - 120px) / 6);
-    height: 88px;
+    width: 168px;
   }
 
   .nav-links {
@@ -1041,8 +1038,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--slate);
     display: flex;
-    gap: 40px;
-    padding: 24px 0;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1099,14 +1094,28 @@ body {
     width: 264px;
   }
 
-  .address-list {
+  .list-top-adress {
     display: flex;
     flex-direction: column;
+    gap: 12px;
+  }
+
+  .list-top-links {
+    gap: 40px;
+  }
+
+  .container {
+    max-width: 768px;
+  }
+
+  .header-main-top {
+    padding-bottom: 36px;
   }
 
   @media (min-width: 1158px) {
     .list-main {
       flex-wrap: nowrap;
+      justify-content: center;
     }
 
     .icons-container {
@@ -1162,12 +1171,50 @@ body {
     }
 
     .footer-subscribe-title {
-      margin-left: 12px;
       padding-bottom: 0;
     }
     .customers-list {
       flex-wrap: nowrap;
       gap: 24px;
+    }
+
+    .container {
+      max-width: 1158px;
+    }
+
+    .description-main {
+      padding: 188px 0;
+    }
+
+    .header-main-top {
+      font-size: 56px;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+      max-width: 496px;
+      padding-bottom: 48px;
+    }
+
+    .header-main {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+    }
+
+    .second-description-main {
+      padding: 120px 0;
+    }
+
+    .bottom-images {
+      padding: 120px 0;
+    }
+
+    .customers {
+      padding: 120px 0;
+    }
+
+    .paragraph-main {
+      font-weight: 400;
     }
   }
 }
