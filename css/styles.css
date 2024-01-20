@@ -440,9 +440,10 @@ body {
 .socials-list {
   display: flex;
   width: 100%;
-  justify-content: center;
-  padding-bottom: 72px;
+  justify-content: space-between;
+  padding-bottom: 40px;
   gap: 16px;
+  max-width: 328px;
 }
 
 .socials-icons {
@@ -714,7 +715,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
+  width: 90%;
+  max-width: 408px;
   min-height: 584px;
   background-color: var(--diary);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -923,11 +925,12 @@ body {
 
 .mobile-header {
   display: flex;
-  width: 480px;
+  max-width: 480px;
   margin: auto;
   justify-content: space-between;
-  padding: 16px 24px 24px 16px;
+  padding: 24px 16px;
   text-align: center;
+  align-items: center;
 }
 
 .mobile-header button {
@@ -950,7 +953,7 @@ body {
 }
 
 .mobile-header-navigation {
-  padding-bottom: 284px;
+  flex-grow: 2;
 }
 
 .mobile-header-navigation .list-nav {
@@ -971,9 +974,8 @@ body {
 }
 
 .mobile-socials {
-  display: flex;
-  justify-content: center;
   padding-top: 48px;
+  padding-left: 40px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -1215,6 +1217,14 @@ body {
 
     .paragraph-main {
       font-weight: 400;
+    }
+
+    .list-top-adress {
+      flex-direction: row;
+    }
+
+    .address-links {
+      padding: 24px 0;
     }
   }
 }
